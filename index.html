@@ -37,9 +37,9 @@ Threads: https://www.threads.net/@10_stronger
 
 <!--Inputs para alterar valores-->
 <article>
-<input type="number" name="" id="horas" value="00" max="24" min="0">
-<input type="number" name="" id="minutos" value="00" max="60" min="0">
-<input type="number" name="" id="segundos" value="00" max="60" min="0">
+<input type="number" name="" id="horas" value="00" max="24" min="0" pattern="[0-9]*" title="numeros" required>
+<input type="number" name="" id="minutos" value="00" max="60" min="0"  pattern="[0-9]*" title="numeros"required>
+<input type="number" name="" id="segundos" value="00" max="60" min="0"  pattern="[0-9]*" title="numeros"required>
 </article>
 
 <!--Botões de ação do timer-->
@@ -47,6 +47,7 @@ Threads: https://www.threads.net/@10_stronger
 <button class="buttonAction" id="start">Iniciar</button>
 <button class="buttonAction" id="finish">Zerar</button>
 </article>
+
 
 <h2>Made by: Jorge Marcelo</h2>
 

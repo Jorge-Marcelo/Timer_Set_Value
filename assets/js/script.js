@@ -53,6 +53,22 @@ if (segundos < 10) {
 segundos = "0" + segundos;
 }
 
+if (isNaN(horas)) { 
+display.textContent = "Insira um numero";
+return;
+}
+
+if (isNaN(minutos)) { 
+display.textContent = "Insira um numero";
+return;
+}
+
+if (isNaN(segundos)) { 
+display.textContent = "Insira um numero";
+return;
+}
+    
+
 /*Mostra o conteudo das variaveis do  timer no HTML*/
 display.textContent = `${horas}:${minutos}:${segundos}`;
 
