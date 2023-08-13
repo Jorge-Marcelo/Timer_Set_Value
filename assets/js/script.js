@@ -53,6 +53,7 @@ if (segundos < 10) {
 segundos = "0" + segundos;
 }
 
+/*Condições caso o valor inserido não seja um numero*/
 if (isNaN(horas)) { 
 display.textContent = "Insira um numero";
 return;
