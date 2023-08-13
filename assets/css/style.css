@@ -1,3 +1,11 @@
+/*
+Autor: Jorge Marcelo
+Data de Criação: 12/08/2023
+Github: https://github.com/Jorge-Marcelo
+Linkedin: https://www.linkedin.com/in/jorge-marcelo-067a5017b/
+Instagram: https://www.instagram.com/10_stronger/
+Threads: https://www.threads.net/@10_stronger
+*/ 
 
 
 /*Google Fonts*/
@@ -81,9 +89,9 @@ label{
 color: rgb(0, 255, 85);
 font-size: 1.3em;
 margin: 0  10px 0 25px;
-
 }
 
+/*inputs*/
 input{
 text-align: center;
 width: 100px;
@@ -114,7 +122,7 @@ border-radius: 100%;
 cursor: pointer;
 }
 
-/*Botão de conversão*/
+/*Botão de ação do timer*/
 .buttonAction{
 border-radius: 30px;
 cursor: pointer;
